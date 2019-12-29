@@ -1,0 +1,53 @@
+:root {
+    /* COLORS */
+    --color-black: #263238;
+    --color-grey-dark: #424242;
+    --color-grey:#616161;
+    --color-grey-light:#bdbdbd;
+    --color-white: #fafafa;
+
+    --color-primary:#F44336 ;
+    --color-secondary:#F44336 ;
+    --color-tertiary:#F44336 ;
+    --color-active:#F44336 ;
+    --color-inactive:#F44336 ;
+    --color-warning:#F44336 ;
+    --color-success:#F44336 ;
+    /* FONT SIZE */
+    --x-large: 3rem;
+    --large: 2.1rem;
+    --medium: 2rem;
+    --small: 1.5rem;
+    --x-small: 1rem;
+}
+
+/* RESET BROWSER CSS  */
+body{font-weight: 300; font-family: 'Roboto', sans-serif; }
+html,
+body,
+div,
+span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;    
+    vertical-align: baseline; 
+    
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:  var(--x-small) var(--small);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--x-small);
+    width: 100%;
+  }
+
+  .bg-color-primary{
+      background-color: var(--color-primary);
+  }
